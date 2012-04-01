@@ -209,3 +209,52 @@ a#facebook:hover {
   font-size: 16px;
   line-height: 18px;
 }
+
+#talks {
+  margin-bottom: 30px;
+}
+
+.talk {
+  display: block;
+}
+
+.talk li {
+  margin-top: 20px;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: top;
+}
+
+.talk .guy {
+  width: 100px;
+  height: 100px;
+}
+
+.talk .details {
+  width: 480px;
+}
+
+.talk .details h3 {
+  font-family: 'Titillium', Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.talk .details h4 {
+  color: #b21d25;
+}
+
+.talk .details p {
+    font-family: 'Titillium', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.talk .details h4 span.company {
+    color: #999999;
+}
