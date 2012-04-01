@@ -186,6 +186,11 @@ a#facebook:hover {
   float: left;
 }
 
+.fixed {
+  position: fixed;
+  top: 10px;
+}
+
 #menu a {
   line-height: 40px;
   text-decoration: none;
@@ -195,7 +200,7 @@ a#facebook:hover {
   color: #FFFFFF;
 }
 
-#menu a.selected, #menu a:hover {
+#menu .current a, #menu a:hover {
   color: #b21d25;
 }
 

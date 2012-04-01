@@ -4,6 +4,11 @@
   <meta charset="utf-8" />
   <title>Abril pro Ruby</title>
   <link href="site.css" rel="stylesheet" />
+  <script src="js/jquery.js" type="text/javascript" ></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/jquery-scrollspy.js"></script>
+  <script src="js/site.js" type="text/javascript" ></script>
 </head>
 
 <body>
@@ -35,43 +40,45 @@
         <td class="apr_name">
           ABRIL<br/>PRO<br/>RUBY
         </td>
-      </ul>
+      </tr>
     </table>
 
-    <div id="menu">
-      <a href="#about" class="selected">Sobre</a><br/>
-      <a href="#place">Local</a><br />
-      <a href="#talks">Palestras</a><br />
-      <a href="#subscribe">Inscrições</a><br />
-      <a href="#sponsors">Patrocinadores</a><br />
-    </div>
+    <nav id="menu">
+      <ul>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#place">Local</a></li>
+      <li><a href="#talks">Palestras</a></li>
+      <li><a href="#subscribe">Inscrições</a></li>
+      <li><a href="#sponsors">Patrocinadores</a></li>
+      </ul>
+    </nav>
 
     <div id="content">
-      <a name="about"></a>
-      <h2>Sobre</h2>
-      <h3>Ruby on Rails em Pernambuco. 21 de Abril.</h3>
-      <p>
-        No dia 21 de abril, Recife receberá mais um evento: Abril pro Ruby. Este será um evento gratuito para os amantes da tecnologia e desenvolvimento de software. O foco, claro, será a linguagem Ruby. Concebida em 1993 por Yukihiro Matsumoto para ser orientada ao ser humano, seus princípios são simplicidade, produtividade e diversão ao utilizá-la.
-      </p>
+      <section id="about">
+        <h2>Sobre</h2>
+        <h3>Ruby on Rails em Pernambuco. 21 de Abril.</h3>
+        <p>
+          No dia 21 de abril, Recife receberá mais um evento: Abril pro Ruby. Este será um evento gratuito para os amantes da tecnologia e desenvolvimento de software. O foco, claro, será a linguagem Ruby. Concebida em 1993 por Yukihiro Matsumoto para ser orientada ao ser humano, seus princípios são simplicidade, produtividade e diversão ao utilizá-la.
+        </p>
 
-      <p>
-        Venha aprender e trocar conhecimento com outros desenvolvedores interessados em fortalecer o cenário pernambucano em Ruby. O evento também trará palestras sobre temas que interessam a todas as plataformas.
-      </p>
+        <p>
+          Venha aprender e trocar conhecimento com outros desenvolvedores interessados em fortalecer o cenário pernambucano em Ruby. O evento também trará palestras sobre temas que interessam a todas as plataformas.
+        </p>
+      </section>
 
+      <section id="place">
+        <h2>Local</h2>
 
-      <a name="place"></a>
-      <h2>Local</h2>
+        <p>
+          Auditório do <a href="http://maps.google.com/maps?q=Rua+do+Apolo,+181,+Recife+-+Pernambuco,+Brasil&hl=en&ll=-8.061154,-34.872172&spn=0.000741,0.001206&sll=37.0625,-95.677068&sspn=38.775203,79.013672&oq=rua+do+apolo,+181&t=h&hnear=R.+do+Apolo,+181+-+Recife,+Pernambuco,+50030-220,+Brazil&z=20">Núcleo de Gestão do Porto Digital</a>, na Rua do Apolo, 181, Cais do Porto, Recife, Pernambuco.
+        </p>
+        <a href="http://maps.google.com/maps?q=Rua+do+Apolo,+181,+Recife+-+Pernambuco,+Brasil&hl=en&ll=-8.061154,-34.872172&spn=0.000741,0.001206&sll=37.0625,-95.677068&sspn=38.775203,79.013672&oq=rua+do+apolo,+181&t=h&hnear=R.+do+Apolo,+181+-+Recife,+Pernambuco,+50030-220,+Brazil&z=20">
+          <img src="images/staticmap.png">
+        </a>
+      </section>
 
-      <p>
-        Auditório do <a href="http://maps.google.com/maps?q=Rua+do+Apolo,+181,+Recife+-+Pernambuco,+Brasil&hl=en&ll=-8.061154,-34.872172&spn=0.000741,0.001206&sll=37.0625,-95.677068&sspn=38.775203,79.013672&oq=rua+do+apolo,+181&t=h&hnear=R.+do+Apolo,+181+-+Recife,+Pernambuco,+50030-220,+Brazil&z=20">Núcleo de Gestão do Porto Digital</a>, na Rua do Apolo, 181, Cais do Porto, Recife, Pernambuco.
-      </p>
-      <a href="http://maps.google.com/maps?q=Rua+do+Apolo,+181,+Recife+-+Pernambuco,+Brasil&hl=en&ll=-8.061154,-34.872172&spn=0.000741,0.001206&sll=37.0625,-95.677068&sspn=38.775203,79.013672&oq=rua+do+apolo,+181&t=h&hnear=R.+do+Apolo,+181+-+Recife,+Pernambuco,+50030-220,+Brazil&z=20">
-        <img src="images/staticmap.png">
-      </a>
-
-      <a name="talks"></a>
-      <h2>Palestras</h2>
       <section id="talks">
+        <h2>Palestras</h2>
         <ul class="talk">
           <li class="guy">
             <a href="http://twitter.com/codezone">
@@ -129,11 +136,12 @@
         </ul>
       </section>
 
-      <a name="subscribe"></a>
-      <h2>Inscrições</h2>
-      <p>As inscrições são gratuitas e feitas através do <a href="#">Eventick</a>. Para confirmar sua presença, <a href="#">clique aqui.</a></p>
+      <section id="subscribe">
+        <h2>Inscrições</h2>
+        <p>As inscrições são gratuitas e feitas através do <a href="#">Eventick</a>. Para confirmar sua presença, <a href="#">clique aqui.</a></p>
+      </section>
 
-      <a name="sponsors"></a>
+      <section id="sponsors">
       <h2>Patrocinadores</h2>
 
       <a href="http://www.locaweb.com.br">
@@ -141,10 +149,15 @@
       </a>
 
       <div id="other_sponsors">
+        <a href="http://www.plataformatec.com.br">
+          <img src="images/sponsor-ptec.png">
+        </a>
+
         <a href="http://www.redu.com.br">
           <img src="images/sponsor-redu.png">
         </a>
       </div>
+      </section>
     </div>
 
     <div id="footer">
