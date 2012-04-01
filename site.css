@@ -73,7 +73,7 @@ body {
 }
 
 h2 {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
   font-family: "Titillium", Helvetica, sans-serif;
   font-weight: 250;
@@ -198,7 +198,7 @@ a#facebook:hover {
   background-color: #FFFFFF;
   text-align: left;
   padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #content p {
@@ -208,6 +208,11 @@ a#facebook:hover {
   margin-right: 15px;
   font-size: 16px;
   line-height: 18px;
+}
+
+#content a {
+  text-decoration: none;
+  color: #b21d25;
 }
 
 #talks {
@@ -231,7 +236,7 @@ a#facebook:hover {
 }
 
 .talk .details {
-  width: 480px;
+  width: 580px;
 }
 
 .talk .details h3 {
@@ -248,9 +253,10 @@ a#facebook:hover {
 
 .talk .details p {
     font-family: 'Titillium', Helvetica, sans-serif;
-    font-size: 14px;
+    color: #000 !important;
+    font-size: 14px !important;
+    line-height: 14px;
     font-weight: bold;
-    background-color: #f2f2f2;
     opacity: 0.8;
     text-align: left;
 }
