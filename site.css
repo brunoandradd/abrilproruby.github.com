@@ -54,22 +54,22 @@ table {
 
 @font-face {
   src: url("fonts/TitilliumText25L002.otf");
-  font-family: Titillium;
-  font-weight: 600;
+  font-family: Titillium Bold;
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   src: url("fonts/TitilliumText25L004.otf");
   font-family: Titillium;
-  font-weight: 250;
+  font-weight: normal;
   font-style: normal;
 }
 
 body {
   background-image: url("images/bg.png");
   font-family: "Titillium", Helvetica, sans-serif;
-  font-weight: 250;
+  font-weight: normal;
   font-size: 16px;
 }
 
@@ -77,7 +77,7 @@ h2 {
   margin-top: 30px;
   margin-bottom: 10px;
   font-family: "Titillium", Helvetica, sans-serif;
-  font-weight: 250;
+  font-weight: normal;
   font-size: 40px;
   text-transform: uppercase;
   color: #b21d25;
@@ -190,8 +190,7 @@ a#facebook:hover {
   line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Titillium", Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: "Titillium Bold", Helvetica, sans-serif;
   font-size: 24px;
   color: #FFFFFF;
 }
@@ -250,7 +249,7 @@ a#facebook:hover {
 }
 
 .talk .details h3 {
-  font-family: 'Titillium', Helvetica, sans-serif;
+  font-family: 'Titillium Bold', Helvetica, sans-serif;
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -315,4 +314,8 @@ a#facebook:hover {
 #links_footer a {
   text-decoration: none;
   color: #b21d25;
+}
+
+span.for_bold {
+  font-family: 'Titillium Bold', Helvetica, sans-serif;
 }
