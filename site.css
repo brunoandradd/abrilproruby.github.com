@@ -51,6 +51,20 @@ table {
 
 /* end reset */
 
+@font-face {
+  src: url("fonts/TitilliumText25L002.otf");
+  font-family: Titillium;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("fonts/TitilliumText25L004.otf");
+  font-family: Titillium;
+  font-weight: 250;
+  font-style: normal;
+}
+
 body {
   background-image: url("images/bg.png");
   font-family: "Maven Pro", Helvetica, sans-serif;
@@ -68,6 +82,10 @@ body {
 
 #header tr.frevo {
   height: 200px;
+}
+
+#header tr.apr {
+  height: 100px;
 }
 
 #header td.logo_for {
@@ -139,4 +157,58 @@ a#facebook {
 
 a#facebook:hover {
   background-image: url("images/logo-facebook-hover.png");
+}
+
+#content {
+  height: 500px;
+  display: inline-block;
+}
+
+#content li {
+  list-style: none
+  display: block;
+  width: 100px;
+}
+
+#content li + li {
+  display: inline;
+  width: 600px;
+  background-color: #FFFFFF;
+}
+
+#section {
+  margin-top: -50px;
+}
+
+#menu {
+  text-align: right;
+}
+
+#menu a {
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Titillium", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+#menu a.selected {
+  color: #b21d25;
+}
+
+#content {
+  background-color: #FFFFFF;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+#content h2 {
+  font-family: "Titillium", Helvetica, sans-serif;
+  font-weight: 250;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #b21d25;
 }
