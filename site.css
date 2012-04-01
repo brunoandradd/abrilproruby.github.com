@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
+    margin-bottom: 50px;
 }
 
 ol, ul {
@@ -130,7 +131,7 @@ h3 {
   vertical-align: top;
   padding-top: 15px;
   text-align: right;
-  width: 500px;
+  width: 150px;
 }
 
 #header td.logo_apr {
@@ -285,4 +286,33 @@ a#facebook:hover {
 
 #other_sponsors a {
   margin-right: 70px;
+}
+
+#footer {
+  clear: both;
+}
+
+#logo_footer {
+  float: left;
+  width: 200px;
+  text-align: center;
+}
+
+#for_footer {
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 24px;
+  float: left;
+  padding-top: 10px;
+}
+
+#links_footer {
+  color: #FFFFFF;
+  float: right;
+  padding-top: 10px;
+}
+
+#links_footer a {
+  text-decoration: none;
+  color: #b21d25;
 }
