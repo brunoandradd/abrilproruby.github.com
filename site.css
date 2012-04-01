@@ -264,3 +264,16 @@ a#facebook:hover {
 .talk .details h4 span.company {
     color: #999999;
 }
+
+#locaweb {
+  margin-top: 30px;
+}
+
+#other_sponsors {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#other_sponsors a {
+  margin-right: 70px;
+}
