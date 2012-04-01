@@ -72,6 +72,23 @@ body {
   font-size: 16px;
 }
 
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Titillium", Helvetica, sans-serif;
+  font-weight: 250;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #b21d25;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #222222;
+  font-size: 24px;
+}
+
 #container {
   margin-left: auto;
   margin-right: auto;
@@ -80,6 +97,10 @@ body {
   display: block;
   background-image: url("images/bg-top.png");
   background-repeat: no-repeat;
+}
+
+#header {
+  margin: 0px;
 }
 
 #header tr.frevo {
@@ -114,18 +135,6 @@ body {
 
 #header td.logo_apr {
   padding-left: 225px;
-}
-
-header ul li {
-  display: inline-block;
-  list-style: none;
-  vertical-align: top;
-  margin-top: 20px;
-}
-
-header ul li + li {
-  margin-top: 125px;
-  margin-left: 20px;
 }
 
 a#github {
@@ -163,7 +172,7 @@ a#facebook:hover {
 
 #content {
   margin-bottom: 20px;
-  display: inline-block;
+  float: left;
 }
 
 #content li {
@@ -207,23 +216,10 @@ a#facebook:hover {
   padding-top: 30px;
 }
 
-h2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-family: "Titillium", Helvetica, sans-serif;
-  font-weight: 250;
-  font-size: 40px;
-  text-transform: uppercase;
-  color: #b21d25;
-}
-
-h3 {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  color: #222222;
-  font-size: 24px;
-}
-
 #content p {
   color: #777777;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 18px;
 }
