@@ -137,6 +137,15 @@ h3 {
   padding-left: 225px;
 }
 
+#header td.apr_name {
+  color: #b21d25;
+  vertical-align: top;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
 a#github {
   display: block;
   width: 140px;
