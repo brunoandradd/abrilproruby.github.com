@@ -67,7 +67,9 @@ table {
 
 body {
   background-image: url("images/bg.png");
-  font-family: "Maven Pro", Helvetica, sans-serif;
+  font-family: "Titillium", Helvetica, sans-serif;
+  font-weight: 250;
+  font-size: 16px;
 }
 
 #container {
@@ -160,7 +162,7 @@ a#facebook:hover {
 }
 
 #content {
-  height: 500px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
@@ -205,10 +207,23 @@ a#facebook:hover {
   padding-top: 30px;
 }
 
-#content h2 {
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-family: "Titillium", Helvetica, sans-serif;
   font-weight: 250;
   font-size: 40px;
   text-transform: uppercase;
   color: #b21d25;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #222222;
+  font-size: 24px;
+}
+
+#content p {
+  color: #777777;
 }
