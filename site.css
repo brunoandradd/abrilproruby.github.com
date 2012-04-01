@@ -107,3 +107,36 @@ header ul li + li {
   margin-top: 125px;
   margin-left: 20px;
 }
+
+a#github {
+  display: block;
+  width: 140px;
+  height: 50px;
+  background-image: url("images/logo-github.png");
+}
+
+a#github:hover {
+  background-image: url("images/logo-github-hover.png");
+}
+
+a#twitter {
+  display: block;
+  width: 140px;
+  height: 50px;
+  background-image: url("images/logo-twitter.png");
+}
+
+a#twitter:hover {
+  background-image: url("images/logo-twitter-hover.png");
+}
+
+a#facebook {
+  display: block;
+  width: 140px;
+  height: 50px;
+  background-image: url("images/logo-facebook.png");
+}
+
+a#facebook:hover {
+  background-image: url("images/logo-facebook-hover.png");
+}
